@@ -1,0 +1,21 @@
+{
+  "name": "vext",
+  "displayName": "vext",
+  "description": "vext is a clean dark vscode theme inspired by vercel and nextjs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VEXT",
+        "uiTheme": "vs-dark",
+        "path": "./themes/VEXT-color-theme.json"
+      }
+    ]
+  }
+}
